@@ -8,14 +8,6 @@ nav {
   background-color: #c2f0f0;
 }
 
-.nav-item active {
-  background-color: #33cccc;
-}
-
-#navbar-button {
-  float: right;
-}
-
 /* Main page contents */
 .hero {
   width: 100%;
@@ -47,7 +39,7 @@ ul {
 }
 
 /* Buttons */
-button, .buttons a {
+section button, .buttons a {
   width: 35%;
   background-color: #fe7f2d;
   display: block;
