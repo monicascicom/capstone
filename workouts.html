@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Harwood Hotsteppers Weekly Workouts</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="stylesheet" href="./css/hotsteppers.css">
+    <script src="./js/hotsteppers.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="./images/hotstepper_sq.png" width="30" height="30" class="d-inline-block align-top" alt="Hotstepper logo"> Harwood Hotsteppers
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+           <li class="nav-item active">
+             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" href="workouts.html">Workouts</a>
+            </li>
+           <li class="nav-item">
+             <a class="nav-link" href="race.html">Race</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="membership.html">Membership</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contact.html">Contact</a>
+           </li>
+         </ul>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+      <h1>Weekly Workouts</h1>
+      <p>We hold team workouts five days a week. Select which days you'd like to view.
+      <form>
+        <input type="checkbox" name="Monday" id="yesMon" value="mon" onchange="workoutDisplay()"/> Monday<br>
+        <input type="checkbox" name="Tuesday" id="yesTue" value="tue" onchange="workoutDisplay()"/> Tuesday<br>
+        <input type="checkbox" name="Wednesday" id="yesWed" value="wedy" onchange="workoutDisplay()"/> Wednesday<br>
+        <input type="checkbox" name="Thursday" id="yesThu" value="thu" onchange="workoutDisplay()"/> Thursday<br>
+        <input type="checkbox" name="Saturday" id="yesSat" value="sat" onchange="workoutDisplay()"/> Saturday<br>
+      </form>
+    </section>
+    <section>
+      <div id="monday">
+          <h2>Monday Fun Run</h2>
+          <div class="details"><p><i class="far fa-clock" aria-label="clock"></i> 7 PM
+          <br><i class="fas fa-location-arrow" aria-label="arrow"></i> Harwood Park
+          <br>Run your mouth along with your miles during this social group run. Route is a flat, 1.5-mile loop, which you can repeat as much as you want. All paces welcome!</div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.1782816662476!2d-73.90047898462943!3d40.88990397931298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3a5100b98cf%3A0x6e15c4cb5e58116d!2sVan+Cortlandt+Park+-+242+St!5e0!3m2!1sen!2sus!4v1558539792144!5m2!1sen!2sus"></iframe>
+      </div>
+      <div id="tuesday">
+          <div class="desc"><h2>Tuesday Track</h2>
+          <div class="details"><p><i class="far fa-clock" aria-label="clock"></i> 7 PM
+          <br><i class="fas fa-location-arrow" aria-label="arrow"></i> Harwood High School Track
+          <br>Take to the track for some speedwork with workouts designed and facilitated by our awesome coaches. Multiple pace groups.</div></div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.266152232699!2d-73.89965108019317!3d40.88797627543005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3a4fa04c2d7%3A0xa81b61f7f03e7d37!2sVan+Cortlandt+Park+Running+Track!5e0!3m2!1sen!2sus!4v1558540049573!5m2!1sen!2sus"></iframe>
+      </div>
+      <div id="wednesday">
+          <div class="desc"><h2>Wednesday Swim</h2>
+          <div class="details"><p><i class="far fa-clock" aria-label="clock"></i> 7 PM
+          <br><i class="fas fa-location-arrow" aria-label="arrow"></i> Harwood Community Pool
+          <br>Hit the pool for some pool running, cross-training or recovery laps. BYO equipment and workout plan. We provide a lifeguard.</div></div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.0490223682023!2d-73.89755473465954!3d40.88882422648097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3a50ebbbd9d%3A0x3dcf13e3d915fa2e!2sVan+Cortlandt+Pool!5e0!3m2!1sen!2sus!4v1558540007317!5m2!1sen!2sus"></iframe>
+      </div>
+      <div id="thursday">
+          <div class="desc"><h2>Thursday Tempo</h2>
+          <div class="details"><p><i class="far fa-clock" aria-label="clock"></i> 7 PM
+          <br><i class="fas fa-location-arrow" aria-label="arrow"></i> Harwood Park
+          <br>Tempo time! Build strength and endurance for your next race. Coached workout designed to accomodate all paces.</div></div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.1782816662476!2d-73.90047898462943!3d40.88990397931298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3a5100b98cf%3A0x6e15c4cb5e58116d!2sVan+Cortlandt+Park+-+242+St!5e0!3m2!1sen!2sus!4v1558539792144!5m2!1sen!2sus"></iframe>
+      </div>
+      <div id="saturday">
+          <div class="desc"><h2>Saturday Morning Special</h2>
+          <div class="details"><p><i class="far fa-clock" aria-label="clock"></i> 8 AM
+          <br><i class="fas fa-location-arrow" aria-label="arrow"></i> Harwood Park
+          <br>The original, the classic. We start together, split into smaller groups according to pace and distance, and rendezvous on the track for cool-down, stretching, and gabbing, followed by breakfast.</div></div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.1782816662476!2d-73.90047898462943!3d40.88990397931298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3a5100b98cf%3A0x6e15c4cb5e58116d!2sVan+Cortlandt+Park+-+242+St!5e0!3m2!1sen!2sus!4v1558539792144!5m2!1sen!2sus"></iframe>
+      </div>
+    </section>
+    </main>
+    <footer>
+      <div>&copy; 2019 Harwood Hotsteppers
+        <i class="fab fa-twitter-square" aria-label="Twitter"></i>
+        <i class="fab fa-facebook-square" aria-label="Facebook"></i>
+        <i class="fab fa-instagram" aria-label="Instagram"></i></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

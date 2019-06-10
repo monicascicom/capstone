@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Harwood Hotsteppers Membership</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="stylesheet" href="./css/hotsteppers.css">
+    <script src="./js/hotsteppers.js"></script>
+	  <link rel="stylesheet" href="./css/hotsteppers.css">
+    <script src="./js/hotsteppers.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="./images/hotstepper_sq.png" width="30" height="30" class="d-inline-block align-top" alt="Hotstepper logo"> Harwood Hotsteppers
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+           <li class="nav-item active">
+             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" href="workouts.html">Workouts</a>
+            </li>
+           <li class="nav-item">
+             <a class="nav-link" href="race.html">Race</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="membership.html">Membership</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contact.html">Contact</a>
+           </li>
+         </ul>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <img class="hero" src="./images/Running-Team16-9CTA2b.png" alt="four people with their heads together in a circle smiling">
+      </section>
+      <section>
+        <h1>Membership</h1>
+          <h2>About the Hotsteppers</h2>
+          <p>Brief team description and history goes here.
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </section>
+      <section>
+        <button>Become a Hotstepper</button>
+      </section>
+      <section>
+        <h2>Team photos</h2>
+        <div class="row">
+          <div class="column">
+              <img alt="Team members posing in park" src="./images/MRC-SLR-Boston-Course-2015-2144.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+              <a href="https://www.flickr.com/photos/31608675@N00/16361771974">Photo</a> by <a href="https://www.flickr.com/photos/31608675@N00">Paul-W</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html">CC BY-NC-SA 2.0</a>
+          </div>
+          <div class="column">
+              <img alt="Team members posing with statue" src="./images/MRC-SLR-Boston-Course-2015-064.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+              <a href="https://www.flickr.com/photos/31608675@N00/16783853398">Photo</a> by <a href="https://www.flickr.com/photos/31608675@N00">Paul-W</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html">CC BY-NC-SA 2.0</a>
+          </div>
+          <div class="column">
+              <img alt="Team members posing at top of ridge" src="./images/2015-01-24.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+              <a href="https://www.flickr.com/photos/131477743@N03/16943571307">Photo</a> by <a href="https://www.flickr.com/photos/131477743@N03">runners_norte</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html">CC BY-NC-SA 2.0</a>
+          </div>
+          <div class="column">
+              <img alt="Team members cheering with statue" src="./images/2013_Shoe4Africa_running_team.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+              <a href="https://commons.wikimedia.org/wiki/File:2013_Shoe4Africa_running_team.jpg">Photo</a> by Jmlang88 via Wikimedia Commons is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+          </div>
+        </div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./images/MRC-SLR-Boston-Course-2015-2144.jpg" alt="Team members posing in park" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./images/MRC-SLR-Boston-Course-2015-064.jpg" alt="Team members posing with statue" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./images/2015-01-24.jpg" alt="Team members posing at top of ridge" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./images/2013_Shoe4Africa_running_team.jpg" alt="Team members cheering with statue" style="width:100%">
+    </div>
+
+<!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+<!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="./images/MRC-SLR-Boston-Course-2015-2144.jpg" onclick="currentSlide(1)" alt="Team members posing in park">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./images/MRC-SLR-Boston-Course-2015-064.jpg" onclick="currentSlide(2)" alt="Team members posing with statue">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./images/2015-01-24.jpg" onclick="currentSlide(3)" alt="Team members posing at top of ridge">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./images/2013_Shoe4Africa_running_team.jpg" onclick="currentSlide(4)" alt="Team members cheering with statue">
+    </div>
+  </div>
+</div>
+      </section>
+      <section>
+      <div>
+          <h2>Membership categories and cost</h2>
+          <ul><li>Single yearly: $35</li>
+            <li>Couple yearly: $60</li>
+            <li>Family yearly: $100</li>
+            <li>Individual lifetime: $500</li></ul>
+      </div>
+      <div>
+          <h2>Membership has its benefits</h2>
+          <ul><li>Unlimited team workouts</li>
+            <li>Group coaching by our renowned team experts</li>
+            <li>Snazzy team shirt (available in unisex sizes XXS-XXL)</li>
+            <li>Team transportation to certain races (additional fee)</li>
+            <li>Discounted tickets to annual awards dinner</li>
+            <li>Discounted entry to Harwood Half</li>
+            <li>Discounted tickets to team parties, picnics, etc.</li>
+    </ul>
+      </div>
+    </section>
+    </main>
+    <footer>
+      <div>&copy; 2019 Harwood Hotsteppers
+        <i class="fab fa-twitter-square" aria-label="Twitter"></i>
+        <i class="fab fa-facebook-square" aria-label="Facebook"></i>
+        <i class="fab fa-instagram" aria-label="Instagram"></i><br>
+        <a href="https://www.flickr.com/photos/15533315@N07/27058076323">Photo</a> (minus cropping and text overlay) by <a href="https://www.flickr.com/photos/15533315@N07">Andrei Valentin</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html">CC BY-NC-ND 2.0</a></div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
